@@ -11,6 +11,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.2.1",
+    "date-fns": "^2.29.3",
     "filepond": "^4.30.4",
     "filepond-plugin-file-encode": "^2.1.10",
     "filepond-plugin-file-validate-size": "^2.2.7",
@@ -35,7 +36,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set PORT=3001 && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
