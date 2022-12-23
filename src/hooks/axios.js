@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const http = axios.create({
-    baseURL: "http://localhost:8800/backend",
+    baseURL: "https://fourtl-web-e-commerce-backend.onrender.com",
     headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
